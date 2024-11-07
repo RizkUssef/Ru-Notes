@@ -4,6 +4,12 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+input , textarea {
+    color: #9A7E6F !important;
+}
+i{
+    color: #54473F;
+}
 .btn-CBD2A4{
     background-color: #CBD2A4;
     margin-right: auto;

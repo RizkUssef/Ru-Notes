@@ -20,7 +20,13 @@
             <img src="images/logo.svg" alt="">
         </div>
         <div class=" w-50 mx-auto">
-            <h3 class="head-color">Add New Note</h3>
+            <div class="d-flex justify-content-between">
+                <h3 class="head-color">Add New Note</h3>
+                <span onclick="showSearchInput()" id="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input onkeyup="search(this.value)" type="text" name="" id="searchInput" class="form-control w-50 hide" placeholder="search...">
+            </div>
             <label for="" class="my-2 head-color">Label</label>
             <input type="text" class="form-control mb-3" id="label">
             <label for="" class="my-2 head-color">Note</label>
