@@ -8,6 +8,10 @@ body{
     background-color: #CBD2A4;
     margin-right: auto;
 }
+.btn-CBD2A4:hover{
+    background-color:#9A7E6F;
+    color: #CBD2A4;
+}
 .head-color{
     color: #54473F;
 }
@@ -20,7 +24,7 @@ body{
 .ele a{
     text-decoration: none;
 }
-.ele h3{
+.ele a{
     color: #54473F;
 }
 .ele p{
