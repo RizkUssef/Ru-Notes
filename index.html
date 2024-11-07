@@ -26,11 +26,12 @@
             <label for="" class="my-2 head-color">Note</label>
             <textarea class="form-control" name="" id="note" rows="3"></textarea>
             <div class="d-flex justify-content-end w-100 mt-5">
-                <button onclick="addNote()" type="submit" class="btn btn-CBD2A4 ms-auto head-color">Add Note</button>
+                <button id="addbtn" onclick="addNote()" type="submit" class="btn btn-CBD2A4 ms-auto head-color">Add Note</button>
+                <button id="updatebtn" onclick="updateNote()" type="submit" class="btn btn-CBD2A4 ms-auto head-color hide">Update Note</button>
             </div>
         </div>
         <div class="container notes d-flex justify-content-start flex-wrap gap-3 mt-5" id="notes_container">
-            
+
         </div>
     </section>
     <script src="js/script.js"></script>

@@ -15,7 +15,6 @@ body{
 .head-color{
     color: #54473F;
 }
-
 .ele{
     width: 300px;
     /* height: 200px; */
@@ -38,5 +37,7 @@ body{
 .ele button{
     color: #54473F;
     width: 30px;
-    /* height: 25px; */
+}
+.hide{
+    display: none;
 }
